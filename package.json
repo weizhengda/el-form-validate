@@ -1,0 +1,39 @@
+{
+  "name": "el-form-validator",
+  "version": "1.0.17",
+  "license": "MIT",
+  "description": "element-ui form self validator",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "npm run build && mocha",
+    "prebuild": "rimraf dist",
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weizhengda/el-form-validate.git"
+  },
+  "keywords": [
+    "element-ui",
+    "validator",
+    "form"
+  ],
+  "author": "weizhengda <weizhengda3356@dingtalk.com>",
+  "devDependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-register": "^6.11.6",
+    "chai": "^3.5.0",
+    "mocha": "^6.0.2",
+    "rimraf": "^2.5.2",
+    "rollup": "^0.41.4",
+    "rollup-plugin-babel": "^3.0.7",
+    "rollup-plugin-node-resolve": "^4.2.4",
+    "rollup-plugin-uglify": "^6.0.2",
+    "rollup-watch": "^2.4.0"
+  }
+}
