@@ -1,6 +1,6 @@
 {
   "name": "el-form-validator",
-  "version": "1.0.17",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "element-ui form self validator",
   "main": "dist/index.js",
